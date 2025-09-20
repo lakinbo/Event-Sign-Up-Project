@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventOrg</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="/images/logo.png" alt="company_logo" />
+      <nav class="nav_header">
+        <a href="">Header 1</a>
+        <a href="">Header 2</a>
+        <a href="">Header 3</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Event Title</h1>
+      <h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+        molestias corporis animi sapiente tempore vel molestiae, corrupti, autem
+        nostrum temporibus ea quibusdam voluptate blanditiis ut eligendi saepe
+        commodi vitae neque.
+      </h2>
+      <img src="/images/event-photo.jpeg" alt="" />
+
+      <h3>Date:</h3>
+      <h3>Time:</h3>
+      <h3>Highlights:</h3>
+      <ul>
+        <li>Highlight 1</li>
+        <li>Highlight 2</li>
+        <li>Highlight 3</li>
+        <li>Highlight 4</li>
+        <li>Highlight 5</li>
+      </ul>
+
+      <p>
+        Please fill out the form below to register. Space are offered on a
+        first-come-first-serve basis.
+      </p>
+
+      <form action="">
+        <fieldset>
+          <legend>Sign-Up</legend>
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" required /><br>
+
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name" required /><br>
+
+          <label for="email">Email</label>
+          <input type="text" id="email" required /><br>
+
+          <label for="telephone">Telephone #</label>
+          <input type="text" id="telephone" required /><br>
+
+          <label for="dob">Date of Birth</label>
+          <input type="text" id="dob" required /><br>
+
+          <label for="">How did you hear about this event?</label>
+          <select name="" id="">
+            <option value="">--Select</option>
+            <option value="">Google Search</option>
+            <option value="">Word-of-mouth</option>
+            <option value="">cnn.com</option>
+            <option value="">Other</option>
+          </select><br>
+
+          <div>
+          <p id="TicketType">Ticket Type:</p>
+          <input type="radio" id="general" name="ticket_type" required checked />
+          <label for="general">General</label>
+
+          <input type="radio" id="vip" name="ticket_type" required />
+          <label for="vip">VIP</label>
+
+          <input type="radio" id="student" name="ticket_type" required />
+          <label for="student">Student</label><br>
+          </div>
+
+          <label for="special">Any Special Request or Comment?</label>
+          <input type="text" id="special""><br>
+
+          <label for="subscribe">Subscribe to our Newsletter</label>
+          <input type="checkbox" id="subscribe" />
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+      </form>
+    </main>
+
+    <footer id="footer">
+        <p id="contact">Contact Us</p>
+        <p>Address: 123 Broad Street, City, State, 34567-890, Country <br>
+        Email: contact@eventorganizer.com <br>
+        Telephone: +1 000 123 4567
+    </p>
+    </footer>
+  </body>
+</html>

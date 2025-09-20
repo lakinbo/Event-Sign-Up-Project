@@ -1,0 +1,42 @@
+header{
+    /* vertical-align: middle; */
+    /* place-items: center; */
+
+}
+
+nav {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 200px;
+  padding: 20px;
+}
+
+a {
+  /* display: inline-block; */
+  color: rgb(17, 68, 177);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+legend{
+    font-size: small;
+}
+
+#TicketType{
+    display: inline;
+}
+
+#footer{
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#contact{
+    margin: 100px 0px 0px 0px;
+    font-size: medium;
+    font-weight: bold;
+}
