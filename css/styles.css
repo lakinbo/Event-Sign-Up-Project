@@ -1,13 +1,16 @@
-header{
-    /* vertical-align: middle; */
-    /* place-items: center; */
+* {
+  font-family: "Montserrat";
+}
 
+header {
+  /* vertical-align: middle; */
+  /* place-items: center; */
 }
 
 nav {
   display: inline-block;
-  vertical-align: bottom;
-  margin-left: 200px;
+  vertical-align: middle;
+  margin-left: 100px;
   padding: 20px;
 }
 
@@ -16,27 +19,122 @@ a {
   color: rgb(17, 68, 177);
   padding: 10px;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: 600;
   text-decoration: none;
+  margin: 10px;
 }
 
-legend{
-    font-size: small;
+a:hover{
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) ; */
+    font-size: 22px;
+    /* text-decoration: underline; */
 }
 
-#TicketType{
-    display: inline;
+p{
 }
 
-#footer{
-    font-size: small;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+main{
+    /* background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  ); */
 }
 
-#contact{
-    margin: 100px 0px 0px 0px;
-    font-size: medium;
-    font-weight: bold;
+#eventTitle {
+  font-weight: 900;
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(17, 68, 177);
+  font-size: 50px;
+}
+
+#eventDescription {
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font: size 10px;
+  font-weight: 100;
+  /* font-style: italic; */
+}
+
+#hero{
+    width: auto;
+    height: 500px;
+    background-image: url("/images/event-photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    padding-top: 50px;
+    padding-left: 30px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 4px 0px rgba(0, 0, 0, 0.7);
+}
+
+h3{
+    /* vertical-align: middle; */
+    /* margin: 0px 0px 0px 40px; */
+    /* padding: 20px; */
+}
+
+li{
+    font-size: 20px;
+    margin: 10px;
+}
+
+legend {
+  font-size: small;
+  color: rgb(17, 68, 177);
+}
+
+fieldset {
+  margin: 10px 0px;
+}
+
+.formLabel {
+  margin: 15px;
+  /* display: block; */
+  /* width: 200px; */
+}
+
+.label_1 {
+  display: inline-block;
+  width: 100px;
+  font-size: 14px;
+}
+
+input {
+  display: inline-block;
+  width: 300px;
+  font-size: 14px;
+}
+
+#TicketType {
+  display: inline;
+}
+
+.actionButtons {
+  margin-top: 40px;
+  /* display: inline-block; */
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+  width: 100px;
+  height: 30px;
+}
+
+#footer {
+  font-size: small;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+#contact {
+  margin: 100px 0px 0px 0px;
+  font-size: medium;
+  font-weight: bold;
 }
