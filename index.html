@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <img src="/images/logo.png" alt="company_logo" />
+      <img src="/images/logo.png" alt="company_logo" id="logo"/>
       <nav class="nav_header">
         <a href="">Header 1</a>
         <a href="">Header 2</a>
@@ -20,31 +20,25 @@
     <main>
       <h1 id="eventTitle">Start-Up Pitching Event</h1>
       <h2 id="eventDescription">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-        molestias corporis animi sapiente tempore vel molestiae, corrupti, autem
-        nostrum temporibus ea quibusdam voluptate blanditiis ut eligendi saepe
-        commodi vitae neque.
+        Pitch your start-up ideas to investors in an engaging atmosphere that celebrates your entrepreneurial spirit and creativity. Expect networking opportunities and access to formal and informal mentorship. <br>Also  explore new products and ideas, enjoy light refreshments and cocktails, and participate in ice-breaker activities designed to foster connection.
       </h2>
 
       <div id="hero"">
         <!-- <img src="/images/event-photo.jpeg" alt="" /> -->
         <h3>Date: September 30, 2025 <br>
         Time: 6.30pm <br>
-        Venue: 111 Main Street, City, State.</h3>
-        <!-- <h3>Time:</h3> -->
+        Venue: Presidential Hotel, 111 Main Street, City, State.</h3>
+      </div>
         <p>Highlights:</p>
         <ul>
-            <li>Highlight 1</li>
-            <li>Highlight 2</li>
-            <li>Highlight 3</li>
-            <li>Highlight 4</li>
-            <li>Highlight 5</li>
+            <li>Networking opportunities with founders, investors, and industry professionals</li>
+            <li>Casual atmosphere fostering open conversations and collaboration</li>
+            <li>Short introductions or pitches from select startups</li>
+            <li>Opportunities to discover new products, ideas, and innovations</li>
+            <li>Connect with local ecosystem stakeholders</li>
         </ul>
-      </div>
 
-
-
-      <p>
+      <p class="formInstructions">
         Please fill out the form below to register. Space are limited and are offered on a
         first-come-first-served basis.
       </p>
@@ -68,20 +62,19 @@
           <input type="text" id="email" class="input" required />
           </div>
 
-          
-          <div class="formLabel">
+          <div id="telephone" class="formLabel_1">
             <label for="telephone" class="label_1">Telephone #</label>
           <input type="text" id="telephone" class="input" required />
           </div>
 
-          <div class="formLabel">
+          <div class="formLabel_2">
           <label for="dob" class="label_1">Date of Birth</label>
           <input type="date" id="dob" class="input" required />
           </div>
 
-          <div class="formLabel">
+          <div class="formLabel_2">
           <label for="">How did you hear about this event?</label>
-          <select name="" id="">
+          <select name="" id="how">
             <option value="">--Select</option>
             <option value="">Google Search</option>
             <option value="">Word-of-mouth</option>
@@ -90,23 +83,35 @@
           </select>
           </div>
 
-          <div>
-          <p id="TicketType">Ticket Type:</p>
+          <div class="special">
+          <label for="special" class="label_1">Any Special Request or Comment?</label>
+          <input type="text" id="special"">
+          </div>
+
+          
+          <div class="ticketType">
+          <p class="label_2">Ticket Type:</p>
+
+          <div class="ticket_type">
           <input type="radio" id="general" name="ticket_type" required checked />
           <label for="general">General</label>
+          </div>
 
+          <div class="ticket_type">
           <input type="radio" id="vip" name="ticket_type" required />
           <label for="vip">VIP</label>
+          </div>
 
+          <div class="ticket_type">
           <input type="radio" id="student" name="ticket_type" required />
           <label for="student">Student</label><br>
           </div>
 
-          <label for="special">Any Special Request or Comment?</label>
-          <input type="text" id="special""><br>
+          </div>
 
-          <label for="subscribe">Subscribe to our Newsletter</label>
           <input type="checkbox" id="subscribe" />
+            <label for="subscribe" id="subscribe">Subscribe to our Newsletter</label>
+
         </fieldset>
 
         <div class="actionButtons">
