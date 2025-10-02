@@ -1,7 +1,7 @@
 body {
   /* display: flex; */
   /* justify-content: center; */
-  margin: 20px 250px;
+  margin: 5vh 20vw;
 }
 
 main {
@@ -16,13 +16,10 @@ main {
 header {
   display: flex;
   justify-content: space-between;
-  /* vertical-align: middle; */
-  /* place-items: center; */
+  width: 60vw;
   border-bottom: 3px solid rgb(224, 221, 221);
-  /* vertical-align: middle; */
   align-items: center;
   height: 80px;
-  /* margin: 20px 50px; */
   padding-bottom: 20px;
 }
 
@@ -33,21 +30,18 @@ header {
 }
 
 nav {
-  /* display: flex; */
+  display: flex;
   justify-content: space-between;
-  /* gap: 60px; */
-  /* vertical-align: middle; */
-  /* margin: 20px 50px;
-  padding: 20px 0px; */
+  /* width: 100%; */
+  gap: 30px;
   align-items: center;
-  text-align: center;
 }
 
 a {
   /* display: inline-block; */
   color: rgb(17, 68, 177);
-  margin: 10px;
-  padding: 10px;
+  /* margin: 10px; */
+  /* padding: 10px; */
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
@@ -59,19 +53,6 @@ a:hover {
   background-color: rgba(218, 130, 15, 0.2);
   border-radius: 5px;
   /* text-decoration: underline; */
-}
-
-p {
-}
-
-main {
-  /* background: #2a7b9b;
-  background: linear-gradient(
-    90deg,
-    rgba(42, 123, 155, 1) 0%,
-    rgba(87, 199, 133, 1) 50%,
-    rgba(237, 221, 83, 1) 100%
-  ); */
 }
 
 #eventTitle {
@@ -88,15 +69,14 @@ main {
 #eventDescription {
   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   color: rgb(17, 68, 177);
-  /* font: size 10px; */
   font-weight: 100;
   line-height: 40px;
   text-align: justify;
+  padding-bottom: 30px;
 
-  /* font-style: italic; */
 }
 
 #hero {
@@ -105,17 +85,15 @@ main {
   background-image: url("/images/event-photo.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* filter: brightness(50%); */
   vertical-align: middle;
   padding-top: 20px;
   padding-left: 30px;
   font-size: 25px;
-  /* font-weight: 900px; */
 }
 
 .formInstructions {
   font-size: 16px;
-  margin-top: 30px;
+  margin: 30px 0;
   font-weight: bold;
   color: rgb(17, 68, 177);
 }
@@ -134,10 +112,6 @@ h3 {
   text-shadow: 3px 0px 2px rgba(255, 255, 255, 0.5);
   font-weight: bold;
 
-  /* background-color: rgba(0, 0, 0, 0.2);; */
-  /* vertical-align: middle; */
-  /* margin: 0px 0px 0px 40px; */
-  /* padding: 20px; */
 }
 
 li {
@@ -145,110 +119,91 @@ li {
   margin: 20px;
 }
 
+fieldset {
+  /* top: 20vh; */
+  /* padding: 20px 20px; */
+  /* width: 50vw; */
+  background-color: white;
+  padding: 5% 3%;
+  border: 2px solid gray;
+  /* width: 60vw; */
+  min-width: 200px;
+  /* max-width: 30vw; */
+  /* margin: auto; */
+}
+
 legend {
-  font-size: 15px;
+  font-size: 18px;
   color: rgb(17, 68, 177);
   font-weight: bold;
 }
 
-fieldset {
-  margin: 10px 0px 0px 0px;
-  /* width: 900px; */
-}
-
-.form_1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-left: 10px;
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  /* margin-left: 10px; */
   /* display: inline-block; */
-  /* width: 200px; */
+  width: 100%;
 }
 
 .formLabel {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin: 10px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-evenly; */
+  /* margin: 10px; */
   /* display: inline-block; */
-  /* width: 200px; */
+  width: 100%;
 }
 
 .formLabel_1 {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: space-evenly;
   margin: 10px;
   /* display: inline-block; */
-  /* width: 200px; */
 }
 
-.formLabel_2 {
-  margin: 10px;
-  display: inline-block;
-  /* width: 200px; */
-}
 
 .label_1 {
   display: block;
-  margin-bottom: 2px;
-  /* width: 100px; */
+  /* margin-bottom: 2px; */
+  width: 100%;
   font-size: 12px;
-  /* font-weight: bold; */
-  /* color: rgb(17, 68, 177); */
 }
 
 .label_2 {
-  display: inline-block;
-  margin-right: 10px; /* font-size: 10px; */
-  font-weight: bold;
-  font-size: 15px;
-  color: rgb(17, 68, 177);
-}
-
-.label_3 {
   display: block;
-  margin-bottom: 2px;
-  /* width: 100px; */
-  font-size: 12px;
-  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 14px;
 }
 
 .special {
-  margin: 10px;
+  margin-top: 20px;
 }
 
 #special {
-  width: 865px;
-  height: 60px;
+  width: 100%;
+  height: 100px;
+  border-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
 }
 
 .input {
-  /* display: inline-block; */
-  width: 250px;
+  width: 100%;
   height: 25px;
   font-size: 14px;
   border-color: rgba(0, 0, 0, 0.3);
   border-radius: 5px;
 }
 
-#email {
-  width: 300px;
-}
-
-#telephone {
-  /* margin: 15px; */
-  /* display: block; */
-  width: 200px;
-}
-
-#dob {
-  width: 150px;
-}
-
 #how {
   height: 25px;
-  width: 180px;
+  width: 100%;
   border-radius: 5px;
 }
 
@@ -260,7 +215,6 @@ fieldset {
 
 .actionButtons {
   margin-top: 20px;
-  /* display: inline-block; */
   text-align: center;
   /* width: 600px; */
 }
@@ -291,4 +245,28 @@ button {
   font-weight: bold;
   border-top: 3px solid rgb(224, 221, 221);
   padding-top: 10px;
+}
+
+@media (max-width: 720px) {
+.form {
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  /* margin-left: 10px; */
+  /* display: inline-block; */
+  width: 100%;
+}
+
+.ticket_type {
+  display: block;
+  /* margin: 20px; */
+  padding: 5px 0px;
+}
+
+
+
+
 }
